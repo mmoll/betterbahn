@@ -61,7 +61,7 @@ export const SearchForm = () => {
 						type="number"
 						value={formData.passengerAge}
 						onChange={(e) => updateFormData({ passengerAge: e.target.value })}
-						placeholder="Alter des Reisenden"
+						placeholder="Alter des Fahrgastes"
 						min="0"
 						max="120"
 						className="w-full px-3 py-2 resize-vertical border-b-2 border-gray-300 focus:ring-2 focus:ring-primary"
